@@ -1,0 +1,48 @@
+.App {
+    padding-top: 6rem;
+    min-height: 100vh;
+    background-image: url("./images/background2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-bottom: 3rem;
+}
+
+.navbar {
+    background-color: rgb(253, 53, 67) !important;
+}
+
+.card-header {
+    background-color: rgb(255, 204, 1) !important;
+    color: black;
+}
+
+.details {
+    border: 2px solid rgb(54, 94, 170) !important;
+}
+
+.database-loading {
+    color: rgb(193, 193, 193);
+    animation: loading-txt-anim 2s linear infinite;
+}
+
+@keyframes loading-txt-anim {
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+.active-pink-4 input[type=text]:focus:not([readonly]) {
+    border: 1px solid rgb(253, 53, 67);
+    box-shadow: 0 0 0 1px rgb(253, 53, 67);
+}
+
+.active-pink-3 input[type=text] {
+    border: 1px solid rgb(253, 53, 67);
+    box-shadow: 0 0 0 1px rgb(253, 53, 67);
+}
