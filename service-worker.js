@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Bartosz94094/pokedex/precache-manifest.047e2172e1fb0c0dd8e0bdd3563a058d.js"
+  "/pokedex/precache-manifest.cb33683c4f296f796f63196ba5e46623.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Bartosz94094/pokedex/index.html", {
+workbox.routing.registerNavigationRoute("/pokedex/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
